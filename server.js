@@ -10,8 +10,8 @@ app.use(express.static("public"));
 
 // CONFIG (REPLACE THESE)
 const API_URL = "https://api.umspay.co.ke/api/v1/stkpush";
-const API_KEY = "YOUR_API_KEY";
-const SHORTCODE = "YOUR_SHORTCODE";
+const API_KEY = "UMPAY_8f2d18dfb1d22032bf29cf83e665d03e8c2d121180a88408c6881845";
+const SHORTCODE = "4815439";
 
 // Helper: delay function
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
